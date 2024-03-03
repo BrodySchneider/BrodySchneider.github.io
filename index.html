@@ -65,6 +65,11 @@ body {
   background-color: black;
   padding-left: 20px;
 }
+.rightcolumn .card img {
+  width: 100%; /* Set the image width to 100% of the card's width */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+}
 
 /* Fake image */
 .fakeimg {
@@ -79,6 +84,14 @@ body {
   padding: 20px;
   margin-top: 20px;
 }
+.card2 {
+  background-color: #13171f;
+  padding: 20px;
+  margin-top: 20px;
+}
+.card2 .imgdesc {
+  margin-left: 20px;
+}
 .card h2 {
   color: white;
 }
@@ -87,6 +100,11 @@ body {
 }
 .card p {
   color: white;
+}
+.card img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any extra spaces below the image */
 }
 
 
@@ -104,7 +122,9 @@ body {
   background: #ddd;
   margin-top: 20px;
 }
-
+.card2 p {
+    word-wrap: break-word; /* Allow the address to wrap */
+  }
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {   
@@ -156,11 +176,14 @@ body {
       <img src="https://github.com/BrodySchneider/BrodySchneider.github.io/blob/main/bg.jpg?raw=true" alt="sential shell" width="400" height="200">
       <p>i can make console tools for custom solutions to automate tasks or streamline processes. i can create command-line tools tailored to your specific requirements. Whether it's data manipulation, file processing, or system administration, I can do it for you.<br><br>i can make networking tools that provide custom solutions for efficient data transfer, building robust network management systems and more.<br><br>my skills extend beyond the two things i just mentioned, so if you need something diffrent, ask and ill see if my skillset can provide what you need.</p>
     </div>
-    <div class="card">
-      <h3>placeholder</h3>
-      <div class="fakeimg"><p>Image</p></div>
-      <div class="fakeimg"><p>Image</p></div>
-      <div class="fakeimg"><p>Image</p></div>
+    <div class="card2">
+      <h3>what i accept</h3>
+      <img src="https://github.com/BrodySchneider/BrodySchneider.github.io/blob/main/Bitcoin.svg.png?raw=true" alt="btc" width="30" height="30">
+      <p>Addr: bc1qsa0rc8y3xqljueftqf267hajcnu9vvvwlw84t7nh8sahh9qdlj6qhdzk47<br><br></p>
+      <img src="https://github.com/BrodySchneider/BrodySchneider.github.io/blob/main/Ethereum-icon-purple.svg.png?raw=true" alt="btc" width="30" height="30">
+      <p>Addr: 0x43d145bd91510c73b96825837c908fa053013209<br><br></p>
+      <img src="https://github.com/BrodySchneider/BrodySchneider.github.io/blob/main/monero-icon-512x512-kqg9n5mp.png?raw=true" alt="btc" width="30" height="30">
+      <p>Addr: 47eobYZTjfF4g7F4v393pLU56EGNuox7riQwXDf4H6w3DvSpkgN9AowGQFzezbyfUYgHsYghdQSUJXvnmG2EzHPnKghN1Rb<br><br></p>
     </div>
     <div class="card">
       <h3>Contact Me</h3>
