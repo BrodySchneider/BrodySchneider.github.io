@@ -13,6 +13,7 @@ body {
   background: #020203;
 }
 
+/* Header/Blog Title */
 .header {
   padding: 30px;
   text-align: center;
@@ -28,13 +29,13 @@ body {
   color: white;
 }
 
-
+/* Style the top navigation bar */
 .topnav {
   overflow: hidden;
   background-color: #333;
 }
 
-
+/* Style the topnav links */
 .topnav a {
   float: left;
   display: block;
@@ -44,19 +45,20 @@ body {
   text-decoration: none;
 }
 
-
+/* Change color on hover */
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 
-
+/* Create two unequal columns that floats next to each other */
+/* Left column */
 .leftcolumn {   
   float: left;
   width: 75%;
 }
 
-
+/* Right column */
 .rightcolumn {
   float: left;
   width: 25%;
@@ -64,14 +66,14 @@ body {
   padding-left: 20px;
 }
 
-
+/* Fake image */
 .fakeimg {
   background-color: #aaa;
   width: 100%;
   padding: 20px;
 }
 
-
+/* Add a card effect for articles */
 .card {
   background-color: #13171f;
   padding: 20px;
@@ -88,14 +90,14 @@ body {
 }
 
 
-
+/* Clear floats after the columns */
 .row::after {
   content: "";
   display: table;
   clear: both;
 }
 
-
+/* Footer */
 .footer {
   padding: 20px;
   text-align: center;
@@ -103,7 +105,7 @@ body {
   margin-top: 20px;
 }
 
-
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {   
     width: 100%;
@@ -111,7 +113,7 @@ body {
   }
 }
 
-
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
   .topnav a {
     float: none;
@@ -129,9 +131,9 @@ body {
 
 <div class="topnav">
   <a href="#"><img src="https://raw.githubusercontent.com/BrodySchneider/BrodySchneider.github.io/main/Instagram_icon.png.png" alt="Instagram"></a>
-  <a href="#"><img src="https://github.com/BrodySchneider/BrodySchneider.github.io/blob/main/Facebook_icon_2013.svg.png?raw=true" alt="Facebook"></a>
+  <a href="https://www.facebook.com/profile.php?id=61553224180902"><img src="https://github.com/BrodySchneider/BrodySchneider.github.io/blob/main/Facebook_icon_2013.svg.png?raw=true" alt="Facebook"></a>
   <a href="#"><img src="https://github.com/BrodySchneider/BrodySchneider.github.io/blob/main/twitter_x_new_logo_x_rounded_icon_256078%20(1).png?raw=true" alt="X"></a>
-  <a href="#" style="float:right"><img src="https://github.com/BrodySchneider/BrodySchneider.github.io/blob/main/image%20(1).png?raw=true" alt="GitHub"></a>
+  <a href="https://github.com/BrodySchneider" style="float:right"><img src="https://github.com/BrodySchneider/BrodySchneider.github.io/blob/main/image%20(1).png?raw=true" alt="GitHub"></a>
 </div>
 
 <div class="row">
@@ -144,8 +146,8 @@ body {
     <div class="card">
       <h2>Projects</h2>
       <h5>Mar 4, 2024</h5>
-      <div class="fakeimg" style="height:200px;">Image</div>
-      <p>Some text..</p>
+      <img src="https://github.com/BrodySchneider/BrodySchneider.github.io/blob/main/Screenshot%202024-03-03%20025022.png?raw=true" alt="sential shell" width="700" height="200">
+      <p>Most of the projects i do are written in C#, and are mostly console apps. i use C# mainly becuase its the languag im the best at, and therefor can do the most in. a good portion of the projects i do are for myself though i do publish some if i wish. all of my projects are utilitys/tools</p>
     </div>
   </div>
   <div class="rightcolumn">
@@ -171,3 +173,14 @@ body {
 
 </body>
 </html>
+
+<!--#crumbs=
+<div id='breadcrumb'>
+<ul>
+<li><a href='/default.asp'>Home</a></li>
+<li><a href='/css/default.asp'>CSS</a></li>
+<li><a href='/css/css_website_layout.asp'>CSS Website Layout</a></li>
+<li>Tryit: Responsive website layout</li>
+</ul>
+</div>
+-->
